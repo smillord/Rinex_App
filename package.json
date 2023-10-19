@@ -1,0 +1,21 @@
+{
+  "name": "astrolus",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "astro": "^3.0.10"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^5.0.0"
+  }
+}

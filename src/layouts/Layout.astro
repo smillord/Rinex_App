@@ -1,0 +1,41 @@
+---
+import AppFooter from "../components/AppFooter.astro";
+import AppHeader from "../components/AppHeader.astro";
+import FooterIgn from "../components/AppFooter_ign.astro"
+import { ViewTransitions } from 'astro:transitions';
+---
+
+
+<!DOCTYPE html>
+<html lang="es" transition:animate="fade">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/IGN-favicon.png" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="Template built with tailwindcss using Tailus blocks v2">
+		<ViewTransitions />
+		<title>Datos Ridex - Instituto Geográfico Nacional (IGN-JJHM)</title>
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-white dark:bg-gray-900">
+		<AppHeader/>
+		<slot />
+		<!-- <FooterIgn/> -->
+	</body>
+</html>
+<style>
+	html {
+		font-family: Urbanist, sans-serif;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	/* Mis estilos */
+
+	/* Mis estilos */
+
+</style>
